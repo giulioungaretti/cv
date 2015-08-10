@@ -1,0 +1,180 @@
+/*http://www.colourlovers.com/palette/128423/fuseboxinsides*/
+/*#1A1502*/
+/*#CFFAF5*/
+/*#F8CC1A*/
+/*
+ * style.css
+ * Copyright (C) 2015 giulio
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+        background-color: #F1F1F1;
+        color: #1A1502;
+        font-weight: 300;
+        font-family: "Lato";
+}
+.page{
+         margin-top:25rem;
+}
+.section {
+        padding: 10rem 0 10rem;
+}
+.hero {
+        background-color: #F8CC1A;
+        background: linear-gradient(to left top, #F1F1F1 50%, #F8CC1A 50%);
+        padding: 10rem 0 2rem;
+}
+.hero h1 {
+        text-align: center;
+        padding: 1rem;
+        display: inline-block;
+        border: #CFFAF5 2px solid;
+}
+.hero h5 {
+        font-weight: 100;
+}
+.center {
+        text-align: center;
+}
+.container {
+        z-index: 2147483645;
+}
+.stuck {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top:0;
+        padding: 1rem 0 1rem;
+        background-color: #FCFCFC;
+        z-index: 2147483647;
+}
+.hero:before {
+        content: '';
+        position: absolute;
+        left: 20%;
+        width: 100%;
+        height: 130%;
+        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.5);
+        top: 0;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
+.experience:before {
+        content: '';
+        position: absolute;
+        left: 30%;
+        width: 200%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.5);
+        transform-origin: bottom;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
+.pubcom:before {
+        content: '';
+        position: absolute;
+        right: inherit;
+        width: 100%;
+        height: 80%;
+        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.5);
+        transform-origin: center;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
+.what {
+        font-weight: 700;
+        text-align: left;
+}
+.when {
+        text-align: left;
+}
+.where {
+        font-weight: 100;
+        text-align: lefthero color: #f8f8f8;
+        font-style: italic;
+}
+.description {
+        text-align: left;
+        padding-bottom: 5rem;
+}
+.education {
+        background-color: #F24E4E;
+}
+.experience {
+        background-color: #3B7B9E;
+}
+.pubcom {
+        background-color: #904F67;
+}
+.about {
+        padding: 1rem;
+}
+/*nav buttons*/
+
+.nav {
+        text-align: center;
+        padding: 1rem;
+}
+.btn a {
+        text-decoration: none;
+        width: 5rem;
+        color: #1A1502;
+        padding: 1rem;
+        display: inline-block;
+        border: #CFFAF5 1px solid;
+}
+.btn a:hover {
+        background-color: #CFFAF5;
+        color: #1A1502;
+}
+.no-bullets {
+        list-style-type: none;
+}
+/* Bigger than 550 */
+
+@media (min-width: 550px) {
+        .where {
+                text-align: right;
+        }
+        .when {
+                text-align: center;
+        }
+        .about {
+                padding: 10rem 0 10rem;
+        }
+        .hero {
+                padding: 10rem 0 10rem;
+        }
+        .stuck {
+                position: fixed;
+                left: 0;
+                right: 0;
+                top: 0;
+                padding: 1rem 0 1rem;
+                background-color: #FCFCFC;
+                z-index: 2147483647;
+        }
+        .page{
+                 margin-top:0rem;
+        }
+}
+/*hide on start*/
+
+#CV {
+        display: none;
+}
+#BLOG {
+        display: none;
+}
+
+.sticky-wrapper {
+        padding: 5rem 0 5rem;
+}
