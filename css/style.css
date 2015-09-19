@@ -16,19 +16,19 @@ body {
         font-family: "Lato";
 }
 .page{
-         margin-top:25rem;
+         /*margin-top:25rem;*/
 }
 #pic{
         background:url("/images/face.png") no-repeat center center;
     background-size:cover;
 	width: 280px;
 	height: 280px;
-	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
    margin:auto;
 }
 .section {
-        padding: 10rem 0 10rem;
+        padding: 16rem 0 10rem;
 }
 .hero {
         background-color: #F8CC1A;
@@ -58,45 +58,6 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         padding: 1rem 0 1rem;
         background-color: #FCFCFC;
         z-index: 2147483647;
-}
-.hero:before {
-        content: '';
-        position: absolute;
-        left: 20%;
-        width: 100%;
-        height: 130%;
-        background-color: rgb(255, 255, 255);
-        background-color: rgba(255, 255, 255, 0.5);
-        top: 0;
-        /*-webkit-transform: rotate(45deg);*/
-        -moz-transform: rotate(45deg);
-        transform: rotate(45deg);
-}
-.experience:before {
-        content: '';
-        position: absolute;
-        left: 30%;
-        width: 200%;
-        height: 100%;
-        background-color: rgb(255, 255, 255);
-        background-color: rgba(255, 255, 255, 0.5);
-        transform-origin: bottom;
-        /*-webkit-transform: rotate(45deg);*/
-        -moz-transform: rotate(45deg);
-        transform: rotate(45deg);
-}
-.pubcom:before {
-        content: '';
-        position: absolute;
-        right: inherit;
-        width: 100%;
-        height: 80%;
-        background-color: rgb(255, 255, 255);
-        background-color: rgba(255, 255, 255, 0.5);
-        transform-origin: center;
-        /*-webkit-transform: rotate(45deg);*/
-        -moz-transform: rotate(45deg);
-        transform: rotate(45deg);
 }
 .what {
         font-weight: 700;
@@ -174,6 +135,45 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         .page{
                  margin-top:0rem;
         }
+.hero:before {
+        content: '';
+        position: absolute;
+        left: 20%;
+        width: 100%;
+        height: 130%;
+        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.5);
+        top: 0;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
+.experience:before {
+        content: '';
+        position: absolute;
+        left: 30%;
+        width: 200%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.5);
+        transform-origin: bottom;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
+.pubcom:before {
+        content: '';
+        position: absolute;
+        right: inherit;
+        width: 100%;
+        height: 80%;
+        background-color: rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0.5);
+        transform-origin: center;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        transform: rotate(45deg);
+}
 }
 /*hide on start*/
 
