@@ -68,7 +68,7 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         background-color: rgb(255, 255, 255);
         background-color: rgba(255, 255, 255, 0.5);
         top: 0;
-        -webkit-transform: rotate(45deg);
+        /*-webkit-transform: rotate(45deg);*/
         -moz-transform: rotate(45deg);
         transform: rotate(45deg);
 }
@@ -81,7 +81,7 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         background-color: rgb(255, 255, 255);
         background-color: rgba(255, 255, 255, 0.5);
         transform-origin: bottom;
-        -webkit-transform: rotate(45deg);
+        /*-webkit-transform: rotate(45deg);*/
         -moz-transform: rotate(45deg);
         transform: rotate(45deg);
 }
@@ -94,7 +94,7 @@ clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         background-color: rgb(255, 255, 255);
         background-color: rgba(255, 255, 255, 0.5);
         transform-origin: center;
-        -webkit-transform: rotate(45deg);
+        /*-webkit-transform: rotate(45deg);*/
         -moz-transform: rotate(45deg);
         transform: rotate(45deg);
 }
