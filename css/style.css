@@ -14,6 +14,7 @@ body {
         color: #1A1502;
         font-weight: 300;
         font-family: "Lato";
+        overflow-x: hidden;
 }
 .page{
          /*margin-top:25rem;*/
