@@ -15,12 +15,12 @@ body {
 
 h1 {
   margin: 0;
-  font-size: 20vw;
+  font-size: 30vmin;
   color: #ff8126;
 }
 
 .profile {
-  font-size: 2.5vmax;
+  font-size: 4vmin;
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 2em;
